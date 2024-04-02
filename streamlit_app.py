@@ -6,6 +6,7 @@ import requests
 from requests.exceptions import ConnectionError as RequestsConnectionError
 
 
+load_dotenv()
 
 
 genai.configure(
